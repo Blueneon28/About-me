@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+body{
+    margin: 0;
+    background-image: url(./img/phone-bg.jpg);
+    background-size: cover;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+/* header */
+header{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    color: whitesmoke;
+    background-color: navy;
+    z-index: 999;
+    border-bottom: 1px solid orangered;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+}
+header h1{
+    margin: 0;
+    width: 80px;
+}
+nav{
+    height: 100%;
+    margin: 0;
+}
+nav ul li :hover{
+    background-color: whitesmoke;
+    color: navy
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+/* section */
+section{
+    position: relative;
+    top: 30px;
+    padding: 30px 100px;
+}
+h4{
+    margin: 10px;
+    color: whitesmoke;
+}
+p{
+    font-size: 18spx;
+    color: whitesmoke;
+    margin: 10px;
+}
+article{
+    background-color: gray;
+    border: 1px solid orangered;
+    border-radius: 5px;
+}
+/* footer */
+.bottom-footer{
+    color: whitesmoke;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#title{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Roboto Mono', monospace;
+}
+#sub-title{
+    font-size: 18px;
+    color: whitesmoke;
+}
